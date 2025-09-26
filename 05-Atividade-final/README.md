@@ -86,7 +86,7 @@ Desenvolver uma solução serverless utilizando Amazon API Gateway, AWS Lambda e
 ##### Como criar APIs via serverless framework
 
 ```yaml
-# serverless.yml
+# Dentro do serverless.yml
 functions:
   hello:
     handler: handler.hello
@@ -103,6 +103,7 @@ functions:
 [documentação - request-schema-validators](https://www.serverless.com/framework/docs/providers/aws/events/apigateway#request-schema-validators)
 
 ```yaml
+# Dentro do serverless.yml
 functions:
   create:
     handler: posts.create
